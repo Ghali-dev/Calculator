@@ -18,7 +18,7 @@ const display = document.getElementById('display');
         if (value === '=') {
           try {
             if (current.includes('/0')) {
-              current = 'nope.';
+              current = 'not happening.';
             } else {
               let result = eval(current);
               result = Math.round(result * 1000) / 1000; // round to 3 decimals
